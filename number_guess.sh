@@ -1,5 +1,5 @@
 #!/bin/bash
-PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
+PSQL="psql --username=freecodecamp --dbname=rankings -t --no-align -c"
 RANDOM_NUMBER=$((RANDOM % 1000 + 1))
 GUESS_COUNTER=0
 
